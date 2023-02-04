@@ -1,0 +1,134 @@
+.d1{
+    background-image: linear-gradient(to right,red,green,yellow);
+    text-align: center;
+}
+.d2{
+    border:1px solid red;
+    border-radius: 5px;
+    text-align:center;
+    width:800px;
+    margin-left:250px;
+    background-color: lightblue;
+}
+.d3{
+    border:1px solid black;
+    border-radius: 5px;
+    flex-flow:row wrap;
+    background-color: #2AF2F6;
+}
+.f1{
+    border:1px solid black;
+    border-radius: 5px;
+    text-align:center;
+    display:inline-block;
+    width:380px;
+    margin-left:50px;
+    background-color: #2AF2F6;
+}
+.f2{
+    border:1px solid black;
+    border-radius: 5px;
+    text-align:center;
+    width:380px;
+    margin-left:486px;
+    background-color: #2AF2F6;
+}
+.d4{
+    background-image: linear-gradient(to right,red,yellow,red);
+    text-align: center;
+    padding-bottom: 15px;
+}
+.d5{
+    background-image: radial-gradient(blue,green);
+    border:1px solid black;
+    height:300px;
+}
+.f3{
+    background-color: rgb(238, 238, 32);
+    color:dark red;
+    border:1px solid dark red;
+    display:inline-block;
+    border-radius: 10px;
+    text-align: center;
+    margin-left:90px;
+    margin-top:100px;
+    width:200px;
+    height:100px;
+    border:2px solid rgb(104, 9, 9);
+}
+.u{
+    color:rgb(104, 9, 9);
+}
+.d6{
+    border:1px solid black;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap:15px;
+}
+.g1{
+    border:1px solid black;
+    text-align:center;
+    background-color: red;
+    color:white;
+    padding-bottom:10px;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    width:1330px;
+    
+}
+.g2{
+    
+    border:1px solid black;
+    background-color: lightgreen;
+    color:white;
+    width:400px;
+    height:60px;
+    text-align: center;
+}
+.g3{
+    border:1px solid black;
+    width:400px;
+    height:60px;
+    color:white;
+    background-color: #11A8C0;
+}
+.g4{
+    border:1px solid black;
+    width:400px;
+    height:60px;
+    color:white;
+    background-color: #1432C3;
+}
+.g5{
+    border:1px solid black;
+    width:78px;
+    text-align: center;
+    height:200px;
+    background-color: black;
+    color: white;
+    
+}
+.u1{
+    color:white;
+}
+.g6{
+    border:1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    position:absolute;
+    top:775px;
+    height:123px;
+    width:1235px;
+    color:white;
+    background-color: orange;
+
+}
+.g7{
+    border:1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    width:1330px;
+    background-color: #36EDEF;
+    color:black;
+    text-align: center;
+}
